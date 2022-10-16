@@ -1,19 +1,19 @@
 @ECHO OFF
 
-ECHO ³]©wºô­¶­º­¶ªº¹ïÀ³¥»¾÷ªº¦ì¸m
-cd C:\Users\?\Desktop\python§@«~
+ECHO è¨­å®šç¶²é é¦–é çš„å°æ‡‰æœ¬æ©Ÿçš„ä½ç½®
+cd C:\Users\?\Desktop\?
 
-ECHO ­Y¦³ ngrok ¨C¦¸­«¶}°È¥²¥ý¶i¦æÅçÃÒ'('ÅçÃÒTOKEN»PÂà´«ªººô§}¨C¦¸¬Û²§')'
-ECHO «ü¥O¦p¤U ¨£¤å¥ó¤º®e
+ECHO è‹¥æœ‰ ngrok æ¯æ¬¡é‡é–‹å‹™å¿…å…ˆé€²è¡Œé©—è­‰'('é©—è­‰TOKENèˆ‡è½‰æ›çš„ç¶²å€æ¯æ¬¡ç›¸ç•°')'
+ECHO æŒ‡ä»¤å¦‚ä¸‹ è¦‹æ–‡ä»¶å…§å®¹
 ::ngrok authtoken <YOUR_AUTH_TOKEN>
 
-ECHO ¦Üºô¯¸(¦p¤U)¥Î google ±b¤áµn¤J¡A¨ú±oÅçÃÒ AUTH_TOKEN
-ECHO ºô§}¦p¤U ¨£¤å¥ó¤º®e
+ECHO è‡³ç¶²ç«™(å¦‚ä¸‹)ç”¨ google å¸³æˆ¶ç™»å…¥ï¼Œå–å¾—é©—è­‰ AUTH_TOKEN
+ECHO ç¶²å€å¦‚ä¸‹ è¦‹æ–‡ä»¶å…§å®¹
 ::https://dashboard.ngrok.com/auth/your-authtoken
 
-ECHO °O±o¥ý¶}±Ò ngrok ¡C«ü¥O ngrok http 8000
-ECHO ±Ò°Ê¦øªA¾¹¡A¸Õ¥Î³sµ² localhost:8000
-ECHO Ctrl + C §Y¥iÃö³¬
+ECHO è¨˜å¾—å…ˆé–‹å•Ÿ ngrok ã€‚æŒ‡ä»¤ ngrok http 8000
+ECHO å•Ÿå‹•ä¼ºæœå™¨ï¼Œè©¦ç”¨é€£çµ localhost:8000
+ECHO Ctrl + C å³å¯é—œé–‰
 python -m http.server 8000 --bind 127.0.0.1
 
 PAUSE
